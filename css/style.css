@@ -273,23 +273,28 @@
 /* ex animation */
 @keyframes ex-13-top{
     0%{
-
+        left: -10px;
+        top: -10px;
     }
 
     25%{
-
+        left: 100%;
+        top: -10px;
     }
 
     50%{
-
+        left: 100%;
+        top: 100%;
     }
 
     75%{
-
+        left: -10px;
+        top: 100%;
     }
 
     100%{
-
+        left: -10px;
+        top: -10px;
     }
 }
 
@@ -310,22 +315,27 @@
 /* ex animation */
 @keyframes ex-13-bottom{
     0%{
-
+        right: -10px;
+        bottom: -10px;
     }
 
     25%{
-
+        right: calc(100% - 50px);
+        bottom: -10px;
     }
 
     50%{
-
+        right: calc(100% - 50px);
+        bottom: 100%;
     }
 
     75%{
-
+        right: -10px;
+        bottom: 100%;
     }
 
     100%{
-
+        right: -10px;
+        bottom: -10px;
     }
 }
