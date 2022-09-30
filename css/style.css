@@ -5,7 +5,7 @@
     /* il mio codice */
     transition: background-color 2s;
 }
-/* ex-1 hover */
+/* ex hover */
 .ex-1-square:hover{
     background-color: red;
 }
@@ -19,7 +19,7 @@
     /* il mio codice */
     transition: width .5s;
 }
-/* ex-2 active */
+/* ex active */
 .ex-2-square:active{
     width: 100%;
 }
@@ -30,21 +30,57 @@
     width: 100px;
     height: 100px;
     background: red;
+    /* il mio codice */
+    transition: border-radius 2s;
 }
+
+/* ex hover */
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* ------------------------------------------------ */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    /* il mio codice */
+    transition: opacity 2s;
 }
+
+/* ex hover */
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* ------------------------------------------------ */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    /* il mio codice */
+    transition: transform .5s;
 }
+
+/* ex hover */
+.ex-5-square:hover{
+    transform: scale(1.5);
+}
+
+/* ex active */
+.ex-5-square:active{
+    transform: scale(1.2);
+}
+
+/* ------------------------------------------------ */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
 
 .ex-9-img {
     margin: 50px 100px;
