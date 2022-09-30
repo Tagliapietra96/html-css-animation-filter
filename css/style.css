@@ -79,13 +79,45 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    /* il mio codice */
+    transition: filter 1s, border-radius 1s;
 }
 
+/* ex hover */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1) blur(2px);
+
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1) blur(2px);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+/* ------------------------------------------------ */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    /* il mio codice */
+    transition: filter 1s, border-radius 1s, transform 1s;
 }
+
+/* ex hover */
+.ex-9-img:hover{
+    filter: grayscale(1) blur(2px);
+    border-radius: 50px;
+    overflow: hidden;
+    transform: scale(1.5);
+}
+
+/* ------------------------------------------------ */
+
 .ex-10-icon {
     font-size: 60px;
 }
